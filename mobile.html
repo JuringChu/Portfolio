@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juring's Portfolio</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="header">   
+        <div class="container-md">
+            <nav class="navbar navbar-expand-md ">
+                <div class="container-fluid">
+                  <h4>Juring's Portfolio</h4>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" class="bi bi-list" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle  active" data-bs-toggle="dropdown">Project</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="web.html" class="dropdown-item">Web UI/UX</a></li>
+                            <li><a href="mobile.html" class="dropdown-item">Mobile UI/UX</a></li>
+                            <li><a href="design.html" class="dropdown-item">Graphic Design</a></li>
+                            <li><a href="video.html" class="dropdown-item">Video</a></li>
+                            <li><a href="illustrator.html" class="dropdown-item">Illustration</a></li>    
+                        </ul>
+                        </li>
+                        <li class="nav-item button"><a href="about.html#hire" class="nav-link">Hire Me</a></li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main class="web">
+      <section class="container-md top">
+        <h2>Mobile UIUX</h2>
+        <div class="container-fluid">
+          <div class="special mobile">
+            <div class="project col-12">
+                <img src="img/payment.jpg" alt="">
+            </div>
+            <div class="txt col-12 mt-5">
+                <h4>付款系統</h4>
+                <p>項目背景：配合新產品連結，製作出兩種導向付款的手持畫面。</p>
+                <p>色彩規範：科技藍為主，兩種主顏色為 <span style="color: #4D6BA5;"> #4D6BA5</span> 及 <span style="color: #6599B4;">#6599B4</span></p>
+                <p>困難點：需讓使用者點擊連結後可以清楚知道下一步的流程，以及配合產品設計出較新穎的科技感</p>
+                <p>優化點：原先點擊付款方式後還需按確認鍵，但使用後發覺除了確認按鈕不明顯外，按了後也會再出現彈跳確認視窗，步驟繁複故決定拿掉確認鍵，以按下後直接出現彈跳視窗並跳轉連結代替。</p>
+              </div>
+          </div>
+          <div class="special  mobile">
+            <div class="project col-12">
+                <img src="img/booking.jpg" alt="">
+            </div>
+            <div class="txt col-12 mt-5">
+                <h4>理髮預約系統</h4>
+                <p>項目背景：結合crm製作手持的預約系統畫面，以髮廊為參考。</p>
+                <p>色彩規範：以時尚的橘色漸層效果及灰藍為輔。</p>
+                <p>困難點：步驟邏輯需清楚，以及要預想到可能出現的情況，例如：剪髮類別還有中長短髮區分。</p>
+                <p>優化點：一般的預約時間表都是需要滑動才能看清楚全部時間的舊式表格，將日期劃分「週」為區間，並以時間為主分為早中晚，使預約表讓使用者可以更清晰。</p>
+              </div>
+          </div>
+          
+        </div>
+      </section>
+        
+    </main>
+    <footer class="footer container pb-3">
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="contact d-flex"><i class="bi bi-instagram"></i><p>chuchu_paint</p></div>
+            <div class="contact d-flex"><i class="bi bi-envelope"></i><p>juring866@gmail</p></div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
