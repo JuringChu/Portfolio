@@ -340,7 +340,7 @@ p,.categories button a,.myself h2,.web h2{
     .first-pro .pic img{
         padding: .5em 0;
     }
-    .categories .tab_row,.myself .me,.special, .mobile, .second-pro .project{
+    .myself .vscode,.categories .tab_row,.myself .me,.special, .mobile, .second-pro .project{
         flex-direction: column;
     }
     .special>div, .mobile>div{
